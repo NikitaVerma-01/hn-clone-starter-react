@@ -1,0 +1,55 @@
+.heading {
+    margin-top: 30px;
+}
+
+[name~="sex"] + div{
+    justify-content: center;
+    text-align: left;
+}
+
+.label_radio  {
+    width: 87% !important;
+}
+
+.label_radio > label{
+    margin: 20px 10px 10px 0;
+}
+
+[name~="sex"] + div > label {
+    width: 0 !important;
+}
+
+.radioIn {
+    width: 99% !important;
+}
+
+.radioWrapper {
+    width: 86% !important;
+    margin-top: 25px;
+}
+
+[name~="designation"] > label {
+    text-align: left;
+    left: 0
+}
+
+[name~="designation"] > div > div > div {
+    text-align: left;
+    left: 0
+}
+
+[name~="designation"] > div {
+    text-align: left;
+    left: 0
+}
+
+.notes > div > label {
+    text-align: left;
+    left: 0
+}
+
+.container {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
